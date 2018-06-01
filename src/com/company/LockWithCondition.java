@@ -50,6 +50,9 @@ public class LockWithCondition {
             }
         }
 
+        public  void Woof(){
+            System.out.println("woof");
+        }
         public void put() {
 
             locker.lock();
